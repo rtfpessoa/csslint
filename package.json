@@ -1,10 +1,13 @@
 {
   "name": "csslint",
-  "version": "0.10.0",
+  "version": "0.10.0-codacy",
   "description": "CSSLint",
   "author": "Nicole Sullivan",
   "contributors": [
-    "Nicholas C. Zakas"
+    {
+      "name": "Nicholas C. Zakas",
+      "name": "Rodrigo T. Fernandes"
+    }
   ],
   "homepage": "http://csslint.net/",
   "repository": {
@@ -24,6 +27,19 @@
   },
   "scripts": {
     "test": "grunt test"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/rtfpessoa/csslint/blob/master/LICENSE"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/rtfpessoa/csslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rtfpessoa/csslint.git"
   },
   "dependencies": {
     "clone": "~1.0.0",
